@@ -96,7 +96,7 @@ async function submit() {
           path: 'src/app.esjs',
           mode: '100644',
           type: 'blob',
-          content: useFiles().getFileContent(FILE_CODE),
+          content: prepareAppEsjsContent(useFiles().getFileContent(FILE_CODE)),
         },
 
         {
