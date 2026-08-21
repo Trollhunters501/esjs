@@ -1,1 +1,10 @@
 const miFuncion = Funcion('return "hola"');
+miFuncion.argumentos;
+miFuncion.llamador;
+miFuncion.nombreMostrado;
+miFuncion.longitud;
+miFuncion.nombre;
+miFuncion.aplicar();
+miFuncion.enlazar();
+miFuncion.llamar();
+miFuncion.aCadena();

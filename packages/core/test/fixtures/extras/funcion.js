@@ -1,1 +1,10 @@
 const miFuncion = Function('return "hola"');
+miFuncion.arguments;
+miFuncion.caller;
+miFuncion.displayName;
+miFuncion.length;
+miFuncion.name;
+miFuncion.apply();
+miFuncion.bind();
+miFuncion.call();
+miFuncion.toString();
